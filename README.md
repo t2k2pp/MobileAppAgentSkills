@@ -37,7 +37,7 @@ ToolStore/
 
 ```bash
 # fetcherをコピー
-curl -sL https://raw.githubusercontent.com/t2k2pp/ToolStore/main/fetcher/SKILL.md \
+curl -sL https://raw.githubusercontent.com/t2k2pp/MobileAppAgentSkills/main/fetcher/SKILL.md \
   -o .agent/skills/skill-fetcher/SKILL.md --create-dirs
 ```
 

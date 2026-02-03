@@ -2,7 +2,7 @@ version: "1.0"
 store_name: "t2k2pp Tool Store"
 description: "AI駆動開発のためのスキル、サブエージェント、MCP、ワークフロー集"
 last_updated: "2026-02-04"
-repository: "https://github.com/t2k2pp/ToolStore"
+repository: "https://github.com/t2k2pp/MobileAppAgentSkills"
 
 # ツールタイプ定義
 tool_types:

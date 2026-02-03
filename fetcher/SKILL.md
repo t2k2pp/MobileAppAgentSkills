@@ -51,18 +51,18 @@ keywords: [flutter, ヘルスケア]
 ### 単一ツール取得
 ```bash
 # スキル取得
-curl -sL https://raw.githubusercontent.com/t2k2pp/ToolStore/main/domains/mobile/flutter/skills/flutter-development/SKILL.md \
+curl -sL https://raw.githubusercontent.com/t2k2pp/MobileAppAgentSkills/main/domains/mobile/flutter/skills/flutter-development/SKILL.md \
   -o .agent/skills/flutter-development/SKILL.md --create-dirs
 
 # サブエージェント取得
-curl -sL https://raw.githubusercontent.com/t2k2pp/ToolStore/main/domains/mobile/flutter/subagents/flutter-developer.md \
+curl -sL https://raw.githubusercontent.com/t2k2pp/MobileAppAgentSkills/main/domains/mobile/flutter/subagents/flutter-developer.md \
   -o .agent/subagents/flutter-developer.md --create-dirs
 ```
 
 ### 一括取得（推奨）
 ```bash
 # Gitサブツリーまたはスパースチェックアウト
-git clone --filter=blob:none --sparse https://github.com/t2k2pp/ToolStore.git .tool-cache
+git clone --filter=blob:none --sparse https://github.com/t2k2pp/MobileAppAgentSkills.git .tool-cache
 cd .tool-cache
 git sparse-checkout set domains/mobile/flutter/skills/flutter-development
 cp -r domains/mobile/flutter/skills/flutter-development ../.agent/skills/
@@ -74,7 +74,7 @@ cp -r domains/mobile/flutter/skills/flutter-development ../.agent/skills/
 
 ```
 1. catalog.yaml をGitHubから読み込む
-   URL: https://raw.githubusercontent.com/t2k2pp/ToolStore/main/catalog.yaml
+   URL: https://raw.githubusercontent.com/t2k2pp/MobileAppAgentSkills/main/catalog.yaml
 
 2. ユーザーの要件からキーワード抽出
    - 技術: flutter, react, python など
@@ -137,5 +137,5 @@ cp -r domains/mobile/flutter/skills/flutter-development ../.agent/skills/
 
 ## カタログURL
 
-- **カタログ**: https://raw.githubusercontent.com/t2k2pp/ToolStore/main/catalog.yaml
-- **リポジトリ**: https://github.com/t2k2pp/ToolStore
+- **カタログ**: https://raw.githubusercontent.com/t2k2pp/MobileAppAgentSkills/main/catalog.yaml
+- **リポジトリ**: https://github.com/t2k2pp/MobileAppAgentSkills
